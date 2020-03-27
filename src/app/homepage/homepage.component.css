@@ -1,15 +1,17 @@
 .container {
-  margin-top: 10vh;
+  margin-top: 3vh;
   display: flex;
   flex-direction: column;
-  margin-left: 15vh;
-  margin-right: 15vh;
+  margin-left: 12vh;
+  margin-right: 12vh;
 }
 
 .wild-container {
   display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .wild-container > div {
@@ -22,10 +24,30 @@
   height: auto;
 }
 
+.paradise-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.paradise-container > div {
+  margin: 2vh;
+  width: 100%;
+}
+
+.paradise-container > div > img{
+  width: 100%;
+  height: auto;
+}
+
 .delight-container {
   display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .delight-container > div {
@@ -37,10 +59,3 @@
   width: 100%;
   height: auto;
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
