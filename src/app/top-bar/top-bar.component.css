@@ -1,4 +1,35 @@
+.topbar-container {
+  display: flex;
+  width: 100%
+}
 
+.topbar-share-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.topbar-logo-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.topbar-dropdown-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.topbar-logo {
+  width: 10vh;
+  height: auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
