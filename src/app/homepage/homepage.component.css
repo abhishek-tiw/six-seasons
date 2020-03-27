@@ -1,0 +1,30 @@
+.container {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.wild-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.wild-container > div {
+  margin: 2vh;
+  width: 100%;
+}
+
+.wild-container > div > img{
+  width: 100%;
+  height: auto;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
