@@ -34,12 +34,30 @@
 
 .paradise-container > div {
   margin: 2vh;
-  width: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 
 .paradise-container > div > img{
   width: 100%;
   height: auto;
+}
+
+.paradise-image1 {
+  /* display: flex;
+  flex-direction: column;
+  height: 100%; */
+}
+
+/* .paradise-image1 > div {
+  width:10vh;
+  height:10vh;
+} */
+
+.paradise-image1 > div > img{
+  /* width:5vh; */
+  width:100%;
+  height:auto;
 }
 
 .delight-container {
