@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { HomePageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
+import { JewelleryComponent } from './jewellery/jewellery.component';
 
 @NgModule({
   imports: [
@@ -14,21 +15,16 @@ import { FooterComponent } from './footer/footer.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
+      { path: 'jewellery', component: JewelleryComponent },
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     HomePageComponent,
-    FooterComponent
+    FooterComponent,
+    JewelleryComponent
   ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
