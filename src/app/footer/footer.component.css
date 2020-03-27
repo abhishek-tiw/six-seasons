@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.share-container {
+  margin-left: 40px;
+}
+
+.contact-container {
+      text-align: center;
+}
+
+.faq-container {
+  margin-right: 40px;
+}

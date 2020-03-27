@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { HomePageComponent } from './homepage/homepage.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { HomePageComponent } from './homepage/homepage.component';
   declarations: [
     AppComponent,
     TopBarComponent,
-    HomePageComponent
+    HomePageComponent,
+    FooterComponent
   ],
   bootstrap: [ AppComponent ]
 })
