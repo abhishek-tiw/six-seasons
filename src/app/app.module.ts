@@ -9,6 +9,7 @@ import { HomePageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { JewelleryComponent } from './jewellery/jewellery.component';
 import { ProductsComponent } from './products/products.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { ProductsComponent } from './products/products.component';
       { path: '', component: HomePageComponent },
       { path: 'jewellery', component: JewelleryComponent },
       { path: 'products', component: ProductsComponent },
+      { path: 'detail', component: DetailComponent },
     ])
   ],
   declarations: [
@@ -26,7 +28,8 @@ import { ProductsComponent } from './products/products.component';
     HomePageComponent,
     FooterComponent,
     JewelleryComponent,
-    ProductsComponent
+    ProductsComponent,
+    DetailComponent
   ],
   bootstrap: [ AppComponent ]
 })
