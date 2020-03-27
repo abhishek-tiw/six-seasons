@@ -1,6 +1,7 @@
 .topbar-container {
   display: flex;
-  width: 100%
+  width: 100%;
+  flex-direction: column;
 }
 
 .topbar-share-container {
@@ -15,6 +16,13 @@
   justify-content: center;
 }
 
+.topbar-menu-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(211, 193, 182, 0.6274509803921569);
+}
+
 .topbar-dropdown-container {
   display: flex;
   width: 100%;
@@ -22,8 +30,10 @@
 }
 
 .topbar-logo {
-  width: 10vh;
+  width: 60vh;
   height: auto;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
 }
 
 .logo {
