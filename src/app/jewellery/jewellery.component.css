@@ -33,6 +33,11 @@
   height: auto;
 }
 
+.image-container > div > div :hover {
+cursor: pointer;
+opacity: 0.
+}
+
 .image-overlay {
   height: 85%;
   width: 85%;
@@ -42,6 +47,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .cell21 {
   margin-left: 10%;
