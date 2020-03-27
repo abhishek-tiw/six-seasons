@@ -35,7 +35,7 @@
 
 .image-container > div > div :hover {
 cursor: pointer;
-opacity: 0.
+opacity: 0.5;
 }
 
 .image-overlay {
