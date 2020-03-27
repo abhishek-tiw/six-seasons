@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
 
+  products = [];
+
   constructor() { }
 
   ngOnInit() {
+
+    for (let i = 0; i < 16; i++) {
+      this.products.push(i);
+    }
   }
 
 }

@@ -1,0 +1,106 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<h6><b>SORT BY</b></h6>
+			<div style="margin-bottom:40px;" class="form-group">
+				<!-- <label for="sortBy">SORT BY</label> -->
+				<select class="form-control" id="sortBy">
+          <option>New Arrival</option>
+          <option>Rating</option>
+          <option>Price</option>
+      </select>
+			</div>
+			<h6><b>FILTERS</b></h6>
+      <div class="filter-header">
+        <p>SHIPPING</p>
+      </div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Ready to ship
+        </label>
+			</div>
+
+      <div class="filter-header">
+        <p>CATEGORY</p>
+      </div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Jewellery
+        </label>
+        <input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Apparel
+        </label>
+			</div>
+
+      <div class="filter-header">
+        <p>SUB-CATEGORY</p>
+      </div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Silver Jewellery
+        </label>
+        <input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Kundan
+        </label>
+        <input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Golden Jewellery
+        </label>
+        <input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Western Style
+        </label>
+			</div>
+
+      <div class="filter-header">
+        <p>PRODUCTS</p>
+      </div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           EARRINGS
+        </label>
+        <input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Necklaces
+        </label>
+        <input class="form-check-input" type="checkbox" value="hmm" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">
+           Bangles
+        </label>
+			</div>
+
+      <div class="filter-header">
+        <p>PRICE</p>
+      </div>
+			<div class="form-group">
+        <!-- <label for="formControlRange">Example Range input</label> -->
+        <input type="range" class="form-control-range" id="formControlRange">
+      </div>
+
+		</div>
+		<div class="col-sm-9">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 image-container">
+				<div class="col product-container" *ngFor="let product of products">
+					<div class="card">
+						<img src="https://cdn.jsdelivr.net/gh/abhishek-tiw/six-seasons@master/src/assets/Jewellery/jewellery1.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">EarRing</h5>
+							<p class="card-text">₹600</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col product-container" *ngFor="let product of products">
+          <img src="https://cdn.jsdelivr.net/gh/abhishek-tiw/six-seasons@master/src/assets/Jewellery/jewellery1.png">
+          <h5>EarRing</h5>
+          <p>₹600</p>
+        </div> -->
+			</div>
+		</div>
+	</div>
+</div>
