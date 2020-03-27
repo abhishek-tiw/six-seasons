@@ -107,9 +107,9 @@ label {
 /* Top Bar */
 
 app-top-bar {
+  padding: 0;
   width: 100%;
   background-color: transparent;
-  padding: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

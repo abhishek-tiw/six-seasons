@@ -7,7 +7,7 @@
 .topbar-share-container {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .topbar-logo-container {
@@ -19,20 +19,29 @@
 .topbar-menu-container {
   display: flex;
   width: 100%;
-  justify-content: center;
+  height: 7vh;
   background-color: rgba(211, 193, 182, 0.6274509803921569);
+  align-items: stretch;
 }
 
-.topbar-dropdown-container {
+.topbar-menu {
   display: flex;
-  width: 100%;
-  justify-content: flex-end;
+  flex-wrap: wrap; 
+  justify-content: space-around;
 }
+
+.topbar-menu-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
 
 .topbar-logo {
-  width: 60vh;
+  width: 68vh;
   height: auto;
-  margin-top: 10vh;
+  margin-top: 7vh;
   margin-bottom: 3vh;
 }
 
