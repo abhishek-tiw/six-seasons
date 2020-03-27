@@ -22,6 +22,22 @@
   height: auto;
 }
 
+.delight-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.delight-container > div {
+  margin: 2vh;
+  width: 100%;
+}
+
+.delight-container > div > img{
+  width: 100%;
+  height: auto;
+}
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
