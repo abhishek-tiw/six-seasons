@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { HomePageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { JewelleryComponent } from './jewellery/jewellery.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   imports: [
@@ -16,6 +17,7 @@ import { JewelleryComponent } from './jewellery/jewellery.component';
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
       { path: 'jewellery', component: JewelleryComponent },
+      { path: 'products', component: ProductsComponent },
     ])
   ],
   declarations: [
@@ -23,7 +25,8 @@ import { JewelleryComponent } from './jewellery/jewellery.component';
     TopBarComponent,
     HomePageComponent,
     FooterComponent,
-    JewelleryComponent
+    JewelleryComponent,
+    ProductsComponent
   ],
   bootstrap: [ AppComponent ]
 })
