@@ -6,7 +6,7 @@
 
 .intro-image-container {
   margin-top: 20vh;
-  
+  margin-bottom: 20vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
   width: 85%;
@@ -37,13 +37,19 @@
 }
 
 .image-overlay {
-  height: 85%;
+  height: 25%;
+  bottom: 20%;
   width: 85%;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.image-overlay > p,h6 {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .team-container > div  > img {
