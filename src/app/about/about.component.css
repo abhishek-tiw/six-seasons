@@ -4,9 +4,51 @@
   justify-content: center;
 }
 
+.intro-image-container {
+  margin-top: 20vh;
+  
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 85%;
+    background: linear-gradient(
+    to right, 
+   rgba(0,0,0,0) 0%,
+   rgba(0,0,0,0) 10%,
+   rgba(211, 193, 182, 0.6274509803921569) 10%,
+   rgba(211, 193, 182, 0.6274509803921569) 90%,
+   rgba(0,0,0,0) 90%,
+   rgba(0,0,0,0) 100%
+  );
+}
+
+.intro-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-image > img {
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  height: 85%;
+  width: 85%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .team-container > div  > img {
   width: 100%;
   height: auto;
   border-radius: 50%;
-  border: 10px solid red;
+  border: 2px solid black;
 }
