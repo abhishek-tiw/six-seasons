@@ -1,0 +1,12 @@
+.intro-text {
+  disply:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-container > div  > img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 10px solid red;
+}
