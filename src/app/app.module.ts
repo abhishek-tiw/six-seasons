@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { JewelleryComponent } from './jewellery/jewellery.component';
 import { ProductsComponent } from './products/products.component';
 import { DetailComponent } from './detail/detail.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { DetailComponent } from './detail/detail.component';
     FooterComponent,
     JewelleryComponent,
     ProductsComponent,
-    DetailComponent
+    DetailComponent,
+    AboutComponent
   ],
   bootstrap: [ AppComponent ]
 })
