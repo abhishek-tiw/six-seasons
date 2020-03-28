@@ -21,6 +21,7 @@ import { AboutComponent } from './about/about.component';
       { path: 'jewellery', component: JewelleryComponent },
       { path: 'products', component: ProductsComponent },
       { path: 'detail', component: DetailComponent },
+      { path: 'about', component: AboutComponent },
     ])
   ],
   declarations: [
